@@ -1,3 +1,93 @@
 body {
-	background: blue;
+	background-image: url("images/leafdew.jpg");
 }
+
+nav {
+	background-color: white;
+	border: black;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 25px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 80%;
+	margin-bottom: 20px;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: hotpink;
+}
+#photocredit {
+	color: white;
+}
+
+#HomeTitle {
+	font-family: Georgia;
+	background-color: white;
+	border: black;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 25px;
+	padding: 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+img {
+	border: black;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 25px;
+	margin: 20px;
+}
+
+#orchidquestions {
+	background-image: url("images/orchid-garden.jpg");
+	border: black;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 25px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.Title {
+	font-size: 18pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+table {
+	margin: 60px;
+}
+
+footer {
+	background-color: #eee;
+	border: black;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 25px;
+	padding: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+form {
+	background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+  margin-right: 65%;
+  }
+ }
